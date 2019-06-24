@@ -98,4 +98,23 @@ private void Timer1_Tick(object sender, EventArgs e)
 
             }
         }
+        
+        
+        
+private void AxSceneControl1_OnMouseDown(object sender, ESRI.ArcGIS.Controls.ISceneControlEvents_OnMouseDownEvent e)
+        {
+            if (e.button.Equals(2))
+            {
+                this.timer1.Enabled = true;
+                state = this.timer1.Enabled;
+            }
+        }
+
+private void AxSceneControl1_OnMouseUp(object sender, ESRI.ArcGIS.Controls.ISceneControlEvents_OnMouseUpEvent e)
+        {
+            this.timer1.Enabled = false;
+            state = this.timer1.Enabled;
+            pPoint.X = 0;
+            pPoint.Y = 0;
+        }
 ```
