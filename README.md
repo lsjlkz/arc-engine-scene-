@@ -1,4 +1,4 @@
-# arc-engine-scene-
+# arc-engine-scene-rotation
 
 arc engine scene组件并不自带三维旋转功能（貌似），搜了一下发现只有缩放scale的，没有旋转的，故自行写了一个鼠标按压移动旋转视图的功能
 
