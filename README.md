@@ -7,7 +7,7 @@ arc engine scene组件并不自带三维旋转功能（貌似），搜了一下�
 
 
 
-<code>
+```
         
 System.Drawing.Point pPoint = new System.Drawing.Point()
         {
@@ -98,4 +98,4 @@ private void Timer1_Tick(object sender, EventArgs e)
 
             }
         }
-</code>
+```
