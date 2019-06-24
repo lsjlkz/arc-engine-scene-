@@ -4,9 +4,11 @@ arc engine scene组件并不自带三维旋转功能（貌似），搜了一下�
 
 此功能用到c#的timer控件
 
-<code>
 
-//全局变量
+
+
+<code>
+        
 System.Drawing.Point pPoint = new System.Drawing.Point()
         {
             X = 0,
@@ -20,8 +22,6 @@ double φdegree;//水平角
 double sqrtxy;//xOy平面上的投影长度
 double θdegree;//倾角
 double r;//视距。即极坐标半径
-
-
 
 
 public Form1()
